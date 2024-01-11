@@ -1,0 +1,7 @@
+/* only global css style can be defined here */
+
+* {
+  font-family: "Arvo", "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
