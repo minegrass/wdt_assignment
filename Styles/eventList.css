@@ -1,0 +1,75 @@
+.eventlist-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.eventlist-text-hot {
+  color: red;
+  font-weight: 900;
+}
+
+.eventlist-text-near {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.eventlist-title a {
+  text-decoration: none;
+}
+
+.eventlist-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eventlist-circle-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.eventlist-circle-div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1rem;
+}
+.eventlist-circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: var(--fourth-color);
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.eventlist-circle:hover {
+  background-color: var(--third-color);
+  cursor: pointer;
+}
+
+.eventlist-circle-active {
+  background-color: var(--third-color);
+}
+
+.eventlist-more {
+  position: relative;
+  color: white;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  margin-right: 2rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.eventlist-more:hover {
+  color: var(--third-color);
+}

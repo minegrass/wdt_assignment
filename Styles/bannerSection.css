@@ -1,0 +1,89 @@
+@import "global.css";
+
+.join-us-title {
+  color: var(--fourth-color);
+}
+
+.top-banner-img-div {
+  background-color: var(--first-color);
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.top-banner-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  width: 100vw;
+  height: 88vh;
+  max-width: 100%;
+  background-image: url("../asset/top-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.top-banner-text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 100%;
+
+  color: white;
+}
+
+.top-banner-span {
+  font-size: 5rem;
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: black;
+}
+
+.top-banner-span-num {
+  margin: 0 1rem 0 1rem;
+  font-size: 10rem;
+  font-family: "Arvo", sans-serif;
+}
+
+.text-over {
+  position: relative;
+  top: -5rem;
+}
+
+.text-people {
+  font-size: 3rem;
+  position: relative;
+  top: 2rem;
+}
+
+.join-us-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-us-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 2rem;
+  border: 0.2rem solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.join-us-btn:hover {
+  background-color: white;
+  color: var(--first-color);
+}
