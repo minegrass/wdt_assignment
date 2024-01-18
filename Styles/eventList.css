@@ -12,11 +12,8 @@
 
 .eventlist-text-near {
   color: white;
-  font-size: 0.5rem;
-}
-
-.eventlist-title a {
-  text-decoration: none;
+  font-size: 0.8rem;
+  margin-left: 1vw;
 }
 
 .eventlist-div {
@@ -30,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 .eventlist-circle-div > div {
@@ -43,7 +40,7 @@
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background-color: var(--fourth-color);
+  background-color: white;
   border: 1px solid black;
   display: flex;
   align-items: center;
