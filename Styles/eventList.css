@@ -57,7 +57,7 @@
   background-color: var(--third-color);
 }
 
-.eventlist-more {
+.eventlist-more-div {
   position: relative;
   color: white;
   text-align: right;
@@ -67,6 +67,10 @@
   transition: color 0.2s ease-in-out;
 }
 
-.eventlist-more:hover {
+.eventlist-more-a {
+  color: white;
+  text-decoration: none;
+}
+.eventlist-more-a:hover {
   color: var(--third-color);
 }

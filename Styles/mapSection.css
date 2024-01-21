@@ -1,0 +1,33 @@
+@import "global.css";
+
+.map-section-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+
+.rel-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.map-div {
+  width: 100px;
+  height: 100px;
+  background-image: url("Includes/svg/mys-map.svg");
+}
+
+.mys-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("Includes/svg/mys-map.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 100%;
+}

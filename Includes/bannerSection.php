@@ -7,7 +7,7 @@ function bannerSection($totalPeople)
     <div class="top-banner-text-div">
         <div>
             <span class="top-banner-span special-font text-over">Over</span>
-            <span class="top-banner-span-num special-font"> ' . $totalPeople . '  </span>
+            <span class="top-banner-span-num special-font"> ' . $totalPeople . '</span>
             <span class="top-banner-span special-font text-people">People</span>
         </div>
         <div class="join-us-div">
