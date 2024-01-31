@@ -1,3 +1,16 @@
+<?php
+if (isset($_COOKIE['user'])) {
+    // Logged in
+    $profile_pic = json_decode($_COOKIE['user'], true)['pic_link'];
+    $loginbtn = "<a href='?page=user/profile'>" . json_decode($_COOKIE['user'], true)['username'] . "</a>";
+} else {
+    // Not logged in
+    $profile_pic = "https://placehold.co/400?text=no-login";
+    $loginbtn = "<a href='?page=login/guest'>Login</a>";
+}
+
+?>
+
 <div class="nav-div box-drop-shadow">
     <nav>
         <div>
@@ -17,10 +30,16 @@
 
         <div>
             <ul class="nav-ul">
-                <li><a class="animation-a" href="index.php?page=aboutus">About Us</a></li>
+                <li><a class="animation-a" href="?page=home#aboutus">About Us</a></li>
                 <li><a class="animation-a-yellow" href="index.php?page=home#leaderboard">Leaderboard</a></li>
                 <li><a class="animation-a" href="index.php?page=event">Event</a></li>
-                <li><img class="pfp-img box-drop-shadow" src="https://picsum.photos/50" /></li>
+                <li>
+                    <div class="nav-profile-div">
+
+                        <img class="pfp-img box-drop-shadow" src="<?php echo $profile_pic ?> " />
+                        <?php echo $loginbtn ?>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>

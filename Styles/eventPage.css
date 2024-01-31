@@ -1,0 +1,18 @@
+.eventlist-div {
+  padding: 4rem 2vw;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 5%,
+    var(--second-color)
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+.event-row-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}

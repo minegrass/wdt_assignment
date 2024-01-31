@@ -9,6 +9,15 @@ function customPageHeader()
     <link rel='stylesheet' type='text/css' href='Styles/eventCard.css'>
     <link rel='stylesheet' type='text/css' href='Styles/eventList.css'>
     <link rel='stylesheet' type='text/css' href='Styles/mapSection.css'>
+    <link rel='stylesheet' type='text/css' href='Styles/mapSection.css'>
+    
+    ";
+};
+
+function customPageFooter()
+{
+    echo "
+    <script src='Scripts/mapSection.js'></script>
     
     ";
 };
@@ -42,20 +51,20 @@ include_once("Includes/navbar.php");
     <div>
         <?php eventSection($eventList); ?>
     </div>
-    <div>
+    <div id="aboutus">
         <!-- About Us -->
         Aboutt
     </div>
     <div>
         <!-- map section -->
 
-
+        <?php include_once("Includes/mapSection.php"); ?>
 
 
     </div>
-    <div id=" leaderboard">
+    <div id="leaderboard">
         <!-- leaderboard section -->
-        leaderboardder
+        <?php include_once("Includes/leaderboardSection.php"); ?>
 
     </div>
 </div>

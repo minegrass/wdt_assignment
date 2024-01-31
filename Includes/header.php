@@ -1,5 +1,6 @@
 <!--Header template for all html pages  -->
 <?php
+session_start();
 include_once("DbConnection.php");
 ?>
 <!DOCTYPE html>

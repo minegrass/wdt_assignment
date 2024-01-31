@@ -22,7 +22,7 @@ function eventSection($eventList)
     <div class="eventlist-div">';
 
     foreach ($eventList as $event) {
-        eventCard($event['title'], $event['desc_short'], "https://picsum.photos/200/300", "wdt_assignment-main/index.php?page=event&eventid=" . $event['eventid']);
+        eventCard($event['title'], $event['desc_short'], "https://picsum.photos/200/300", "index.php?page=event&eventid=" . $event['eventid']);
     }
 
 
